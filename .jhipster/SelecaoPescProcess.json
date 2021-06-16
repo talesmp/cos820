@@ -1,0 +1,84 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCompleto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "emailPrincipal",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estrangeiroSimNao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nacionalidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "documentoCpfPassaporte",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataNascimento",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "cidadeNascimento",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "formacaoInstituicaoNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "formacaoCursoSuperior",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaUrlSite",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docenciaInstituicaoNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "docenciaInstituicaoPais",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "proficienciaInglesTipoTeste",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "proficienciaInglesNota",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mestradoDoutorado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "linhaAreaInteresse",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "process-binding",
+  "processBpmnId": "SelecaoPescProcess",
+  "domainEntityName": "SelecaoPesc",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "SelecaoPescProcess",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

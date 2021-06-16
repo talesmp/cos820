@@ -1,0 +1,41 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCompleto",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "emailPrincipal",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "documentoCpfPassaporte",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "formacaoInstituicaoNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "formacaoCursoSuperior",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "SelecaoPescProcess",
+  "processEntityName": "SelecaoPescProcess",
+  "taskBpmnId": "TaskUserInformarFormacaoSuperior",
+  "domainEntityName": "SelecaoPesc",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskUserInformarFormacaoSuperior",
+  "changelogDate": "20210401000004"
+}

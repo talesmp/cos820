@@ -1,0 +1,28 @@
+{
+  "selecaoPescApp": {
+    "taskUserInformarFormacaoSuperior": {
+      "home": {
+        "title": "Task User Informar Formacao Superiors",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Task User Informar Formacao Superior",
+        "createOrEditLabel": "Criar ou editar Task User Informar Formacao Superior",
+        "notFound": "Nenhum Task User Informar Formacao Superior encontrado"
+      },
+      "created": "Um novo Task User Informar Formacao Superior foi criado com o identificador {{ param }}",
+      "updated": "Um Task User Informar Formacao Superior foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Task User Informar Formacao Superior foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Task User Informar Formacao Superior {{ id }}?"
+      },
+      "detail": {
+        "title": "Task User Informar Formacao Superior"
+      },
+      "id": "ID",
+      "nomeCompleto": "Nome Completo",
+      "emailPrincipal": "Email Principal",
+      "documentoCpfPassaporte": "Documento Cpf Passaporte",
+      "formacaoInstituicaoNome": "Formacao Instituicao Nome",
+      "formacaoCursoSuperior": "Formacao Curso Superior"
+    }
+  }
+}
